@@ -1,0 +1,102 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.add-comment-container {
+  display: flex;
+}
+.letter {
+  color: #dee0e3;
+  font-family: 'Roboto';
+  font-size: 11px;
+}
+.time {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+}
+.name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.comment-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 40px;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+}
+.like-icon-container {
+  border: none;
+  background-color: transparent;
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+}
+.like-icon {
+  height: 20px;
+  width: 30px;
+}
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.delete-icon-container {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.initial-container {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
